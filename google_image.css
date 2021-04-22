@@ -1,0 +1,111 @@
+body {
+    font-family:arial, sans-serif;
+}
+.logo-subtext {
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top:76px;
+    white-space: nowrap;
+}
+
+.bar {
+    background: #fff;
+    display: flex;  
+    border:1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 534px;
+    margin: 0 auto;
+}
+.bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.search-bar-input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+    flex: 100%;
+}
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.camera-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    
+}
+.mic-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+.mic-icon-vector {
+    width: 24px;
+    height: 24px;
+}
+.search-icon {
+    display: flex;
+    align-items: center;
+    padding:0 8px;
+    color: #4285f4;
+}
+.search-icon-svg {
+    width: 24px;
+    height: 24px;
+    color: #4285f4;
+    fill: currentColor;
+}
+.gb_wc {
+    background-image: url('https://ssl.gstatic.com/gb/images/v1_48ebb8bb.png');
+    -webkit-background-size:92px 3387px;
+    background-size:92px 3387px;
+}
+.gb_D {
+    display: inline-block;
+    outline: none;
+    height: 30px;
+    width: 30px;
+    background-position:-35px -2590px;
+    color: #000;
+    opacity: .55;
+    text-decoration: none;
+}
+.profil-photo, .apps-icon {
+    margin: 5px 10px;
+}
+.gb_D:hover {
+    opacity: .85;
+    
+}
+.profil-photo> img{
+    border:1px solid #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#google-search-page {
+    outline: none;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    bottom: 10px;
+}
+#google-search-page:hover {
+    opacity: .85;
+    text-decoration: underline;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="google_advance_search.css" />
+    
+  </head>
+  <body>
+    <nav
+      style="
+        display: flex;
+        flex-direction: row-reverse;
+        background: #f1f1f1;
+        margin: 0;
+        height: 60px;
+        width: 100%;
+      "
+    >
+      <div class="profil-photo">
+        <img src="images/profil-photo.jpg" alt="profil photo" />
+      </div>
+      <div class="apps-icon" style="position: relative">
+        <a
+          class="gb_D gb_wc"
+          href="https://www.google.com.tr/intl/en/about/products?tab=ih"
+          title="Google Apps"
+        ></a>
+      </div>
+      <div id="google-search-page">
+        <a style="text-decoration: none;"href="file:///C:/Users/H%C3%BCseyin/Desktop/googleSearch/Google%20Search.html">Google Search</a>
+      </div>
+      <div class="Google-Logo">
+        <a href="https://www.google.com/webhp?tab=ww"
+          ><img src="images/googleLogo.png" alt="Google Logo"
+        /></a>
+      </div>
+    </nav>
+
+    <div style="margin: 25px 35px; color: #d93025; width: fit-content">
+      <style>
+        #label-text {
+          margin: 0 0 0 15px;
+          font-style: inherit;
+          font-weight: inherit;
+          font-size: 125%;
+          border: 0;
+        }
+      </style>
+      <h1 id="label-text">Advanced Search</h1>
+    </div>
+    <div style="border-bottom: 1px solid #ebebeb"></div>
+
+    <div class="content">
+      <style>
+        .label-header {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        @media screen and (max-width: 1100px) {
+          .ftext,
+          .lost {
+            display: none;
+          }
+          .content {
+            margin-right: 50px;
+          }
+        }
+
+        @media screen and (max-width: 363px) {
+          .input,
+          .content {
+            display: inline;
+          }
+        }
+      </style>
+      <div class="label-header">
+        <style>
+          .to-do-text {
+            color: #777;
+            font-weight: 700;
+            font-size: 10px;
+          }
+        </style>
+        <h2 id="label-text">Find pages with...</h2>
+        <div class="to-do-text">
+          <h2
+          id="label-text"
+          class="lost"
+          style=" position: relative; right: 125px"
+        >
+          To do this in the search box.
+        </h2>
+        </div>
+        
+      </div>
+
+      <form action="https://google.com/search" method="GET">
+        <div class="first input">
+          <span class="text" id="label-text">all these words:</span>
+          <input class="bar" name="as_q" type="text"autocomplete="off" />
+          <label class="text ftext" id="label-text"
+            >Type the important words: tri-colour rat terrier</label
+          >
+        </div>
+        <div class="second input">
+          <span class="text" id="label-text">this exact word or phrase:</span>
+          <input class="bar" name="as_epq" type="text"autocomplete="off" />
+          <label class="text ftext" id="label-text"
+            >Put exact words in quotes: "rat terrier"</label
+          >
+        </div>
+        <div class="third input">
+          <span class="text" id="label-text">any of these words:</span>
+          <input class="bar" name="as_oq" type="text" autocomplete="off" />
+          <label class="text ftext" id="label-text"
+            >Type OR between all the words you want: miniature OR
+            standard</label
+          >
+        </div>
+        <div class="fourth input">
+          <span class="text" id="label-text">none of these words:</span>
+          <input class="bar" name="as_eq" type="text"  autocomplete="off"/>
+          <label class="text ftext" id="label-text"
+            >Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"</label
+          >
+        </div>
+        <style>
+         
+          .btn {
+            height: 30px;
+            min-width: 120px;
+            line-height: 100%;
+            user-select: none;
+            font-family: arial,sans-serif;
+            box-shadow: none;
+            background-color: #4d90fe;
+            background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+            color: #fff;
+            border: 1px solid #3079ed;
+            border-radius: 2px;
+            font-size: 11px;
+            font-weight: bold;
+            white-space: nowrap;
+            outline: 0;
+          }
+          .btn:hover {
+            background-color: #357ae8;
+            background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+            border: 1px solid #2f5bb7;
+            border-image: initial;
+
+          }      
+        </style>
+        <div class="Advanced-button">
+          <input type="hidden" name="tbs" value>
+          <input class="btn" type="submit" value="Advanced Search">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

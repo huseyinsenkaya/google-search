@@ -1,0 +1,121 @@
+body {
+    font-family: arial, sans-serif;
+    
+}
+.logo-subtext {
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top:76px;
+    white-space: nowrap;
+}
+
+.bar {
+    background: #fff;
+    display: flex;  
+    border:1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+}
+.bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.search-bar-input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+    flex: 100%;
+}
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mic-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+}
+.mic-icon-vector {
+    width: 24px;
+    height: 24px;
+}
+
+.gb_wc {
+    background-image: url('https://ssl.gstatic.com/gb/images/v1_48ebb8bb.png');
+    -webkit-background-size:92px 3387px;
+    background-size:92px 3387px;
+}
+.gb_D {
+    display: inline-block;
+    outline: none;
+    height: 30px;
+    width: 30px;
+    background-position:-35px -2590px;
+    color: #000;
+    opacity: .55;
+    text-decoration: none;
+}
+.profil-photo, .apps-icon {
+    margin: 5px 10px;
+}
+.gb_D:hover {
+    opacity: .85;
+    
+}
+.profil-photo> img{
+    border:1px solid #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.buttons > * {
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin:11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select:none;
+    margin-top: 25px;
+}
+.buttons > *:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+#google-i-search-page {
+    outline: none;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    bottom: 10px;
+    margin: 0 10px;
+}
+#google-i-search-page:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
